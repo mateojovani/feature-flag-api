@@ -13,9 +13,9 @@ For this task, we want to create feature flag to allow us to conduct an A/B test
 {
     "name": "feature_foo", # Name of the feature
     "ratio": 0.5, # Percentage of users that should get the feature (50/50 in this case)
-    "enabledEmails": ["bar@baz.com"], # List of emails the feature is always enabled for regardless of other criteria's
+    "enabledEmails": ["bar@baz.com"], # List of emails the feature is always enabled for, regardless of other criteria
     "includedCountries": ["US"], # List of countries the user must be from, if empty it is enabled for all countries
-    "excludedCountries": ["GB"], # List of countries the user cannot be from
+    "excludedCountries": ["GB"], # List of countries the user must not be from
 }
 ```
 
