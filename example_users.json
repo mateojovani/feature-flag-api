@@ -1,0 +1,30 @@
+[
+    {
+        "email": "ed@zzish.com",
+        "location": "GB"
+    },
+    {
+        "email": "vikash@zzish.com",
+        "location": "CA"
+    },
+    {
+        "email": "bens@zzish.com",
+        "location": "US"
+    },
+    {
+        "email": "radvile@zzish.com",
+        "location": "CA"
+    },
+    {
+        "email": "anurag@zzish.com",
+        "location": "AU"
+    },
+    {
+        "email": "pau@zzish.com",
+        "location": "GB"
+    },
+    {
+        "email": "thom@zzish.com",
+        "location": "US"
+    }
+]
