@@ -1,0 +1,20 @@
+{
+  "name": "feature-flag-api",
+  "version": "1.0.0",
+  "description": "A simple feature flag API. A feature flag is, according to Wikipedia:",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mateojovani/feature-flag-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mateojovani/feature-flag-api/issues"
+  },
+  "homepage": "https://github.com/mateojovani/feature-flag-api#readme"
+}

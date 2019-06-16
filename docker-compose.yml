@@ -1,0 +1,19 @@
+version: "2"
+services:
+  featflag:
+    container_name: featflag
+    restart: always
+    build: .
+    ports:
+      - "8888:8888"
+    links:
+      - mongo
+      - redis
+  mongo:
+    container_name: mongo
+    image: mongo
+    ports:
+      - "27017:27017"
+  redis:
+    image: redis:latest
+    container_name: redis
