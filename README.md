@@ -1,5 +1,30 @@
 # Feature Flag API
 
+### Usage
+Requires docker installed, to get docker:
+[https://www.docker.com/get-started](https://www.docker.com/get-started)
+
+On *Mac/Linux/Windows docker bash terminal* run:
+`sh make.sh run`
+Alternatively:
+`docker-compose up --build`
+
+This will get the containers and application started by exposing port `8888` on your local machine
+
+To run unit tests:
+`npm install`
+`npm test`
+
+API endpoints
+```
+api/features
+api/features/:id
+api/users
+api/users/:id
+api/users/:id/features
+```
+#
+### Description
 A simple feature flag API. A feature flag is, according to Wikipedia:
 
 > A feature toggle (also feature switch, feature flag, feature flipper, conditional feature, etc.) is a technique in software development that attempts to provide an alternative to maintaining multiple source-code branches (known as feature branches), such that a feature can be tested even before it is completed and ready for release. Feature toggle is used to hide, enable or disable the feature during run time. For example, during the development process, a developer can enable the feature for testing and disable it for other users.
@@ -27,4 +52,3 @@ Each user has the following information:
     "location":"GB"
 }
 ```
-#Usage
