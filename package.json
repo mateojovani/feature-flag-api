@@ -1,8 +1,19 @@
 {
   "name": "feature-flag-api",
   "version": "1.0.0",
-  "description": "A simple feature flag API. A feature flag is, according to Wikipedia:",
+  "description": "A simple feature flag API",
   "main": "index.js",
+  "dependencies": {
+    "async-redis": "^1.1.7",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "http-errors": "^1.7.1",
+    "mongoose": "^5.4.5"
+  },
+  "devDependencies": {
+    "jest": "^24.8.0"
+  },
   "scripts": {
     "start": "node index",
     "test": "npm test"
@@ -11,7 +22,7 @@
     "type": "git",
     "url": "git+https://github.com/mateojovani/feature-flag-api.git"
   },
-  "author": "",
+  "author": "Mateo Jovani",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/mateojovani/feature-flag-api/issues"
