@@ -7,6 +7,7 @@ const featureSchema = new mongoose.Schema({
         min: 0,
         max: 1
     },
+    ratioFilled: Boolean,
     enabledEmails: [String],
     includedCountries: [String],
     excludedCountries: [String]
