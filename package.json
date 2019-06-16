@@ -16,7 +16,7 @@
   },
   "scripts": {
     "start": "node index",
-    "test": "npm test"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
