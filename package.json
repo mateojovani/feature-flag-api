@@ -9,7 +9,7 @@
     "cors": "^2.8.5",
     "express": "^4.16.4",
     "http-errors": "^1.7.1",
-    "mongoose": "^5.4.5"
+    "mongoose": "^5.7.5"
   },
   "devDependencies": {
     "jest": "^24.8.0"
